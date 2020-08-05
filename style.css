@@ -388,7 +388,7 @@ footer a {
   border-bottom: 5px solid #030303;
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
+@media screen and (max-width: 1024px) and (min-width: 481px) {
   #starbear {
     line-height: 32px;
     -webkit-box-orient: vertical;
@@ -473,33 +473,37 @@ footer a {
   }
   #starbear img {
     width: 90%;
+    margin-bottom: 16px;
   }
   #member {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 0;
+    margin-bottom: 32px;
   }
   #member div {
     padding-left: 0;
+    width: 100%;
+    margin-bottom: 36px;
   }
   #member p {
     font-size: 14px;
     line-height: 24px;
     width: 110%;
     text-indent: 0;
-    margin-left: 1em;
   }
   #member img {
+    position: relative;
+    top: 8px;
     width: 116px;
     height: 116px;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  #member div {
-    width: 100%;
-    margin-bottom: 36px;
+  #member .feature {
+    position: absolute;
+    left: 50%;
   }
   .stardust::after, .kumakiti::after, .yami::after {
     width: 16px;
