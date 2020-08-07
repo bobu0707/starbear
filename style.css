@@ -103,7 +103,7 @@ html {
 }
 
 body {
-  background-color: yellow;
+  background-color: #ff0;
 }
 
 ul {
@@ -111,7 +111,7 @@ ul {
 }
 
 a {
-  color: yellow;
+  color: #ff0;
   text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ h1 {
 
 h2 {
   font-size: 28px;
-  color: yellow;
+  color: #ff0;
   background-color: #030303;
   width: 100vw;
   margin: 0 calc(50% - 50vw) 32px;
@@ -149,7 +149,7 @@ p {
 header {
   height: 70px;
   width: 100%;
-  background-color: yellow;
+  background-color: #ff0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,15 +302,15 @@ header ul li a:hover {
   left: 8px;
   width: 24px;
   height: 24px;
-  background-color: yellow;
+  background-color: #fceb06;
 }
 
 .kumakiti::after {
-  background-color: blue;
+  background-color: #3dbfd3;
 }
 
 .yami::after {
-  background-color: red;
+  background-color: #e72871;
 }
 
 #movie-list {
@@ -368,11 +368,11 @@ footer {
   height: 64px;
   line-height: 32px;
   background-color: #030303;
-  color: yellow;
+  color: #ff0;
 }
 
 footer a {
-  color: yellow;
+  color: #ff0;
 }
 
 #top_button a {
@@ -420,8 +420,8 @@ footer a {
     width: 100%;
   }
   #member img {
-    width: 50%;
-    height: 260px;
+    width: 40%;
+    height: 268px;
   }
   #movie-list li {
     height: 200px;
@@ -453,13 +453,13 @@ footer a {
     line-height: 24px;
   }
   #menu a {
-    color: yellow;
+    color: #ff0;
   }
   #main-v {
     margin-bottom: 32px;
   }
   #new-movie h3 {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
   #new-movie iframe {
     top: 0;
