@@ -99,7 +99,7 @@ input, select {
 }
 
 // css ここから
-$back_ground: yellow;
+$back_ground: #ff0;
 $kuro: #030303;
 $hover: #555;
 
@@ -252,15 +252,15 @@ header{
     left: 8px;
     width: 24px;
     height: 24px;
-    background-color: yellow;
+    background-color: #fceb06;
 }
 .kumakiti::after{
     @extend .stardust;
-    background-color: blue;
+    background-color: #3dbfd3;
 }
 .yami::after{
     @extend .stardust;
-    background-color: red;
+    background-color: #e72871;
 }
 
 #movie-list{
@@ -347,8 +347,8 @@ footer{
             width: 100%;
         }
         img{
-            width: 50%;
-            height: 260px;
+            width: 40%;
+            height: 268px;
         }
     }
     #movie-list{
@@ -387,7 +387,7 @@ footer{
     }
     #new-movie{
         h3{
-            margin-bottom: 24px;
+            margin-bottom: 16px;
         }
         iframe{
             top: 0;
