@@ -216,6 +216,11 @@ header ul li a:hover {
   margin-bottom: 80px;
 }
 
+#new-movie p {
+  margin-bottom: 32px;
+  font-size: 20px;
+}
+
 #new-movie .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -389,6 +394,9 @@ footer a {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 481px) {
+  #new-movie {
+    margin-bottom: 64px;
+  }
   #starbear {
     line-height: 32px;
     -webkit-box-orient: vertical;
@@ -401,6 +409,9 @@ footer a {
     height: 70%;
     margin: 0 15% 16px;
   }
+  #starbear .feature {
+    margin-left: 15%;
+  }
   #about {
     margin-bottom: 0;
   }
@@ -412,15 +423,13 @@ footer a {
   }
   #member div {
     margin-bottom: 32px;
+    width: 100%;
   }
   #member h3 {
     margin-bottom: 8px;
   }
-  #member div {
-    width: 100%;
-  }
   #member img {
-    width: 40%;
+    width: 50%;
     height: 268px;
   }
   #movie-list li {
@@ -457,6 +466,9 @@ footer a {
   }
   #main-v {
     margin-bottom: 32px;
+  }
+  #new-movie {
+    margin-bottom: 64px;
   }
   #new-movie h3 {
     margin-bottom: 16px;
